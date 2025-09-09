@@ -15,11 +15,19 @@ main{
     flex-direction: column;
 }
 
-.us{
+.us-container{
     display: flex;
+}
+
+.us img{
+    height: 400px;
+    width: auto;
 }
 
 article{
     display: flex;
     flex-direction: column;
+}
+
+section{
 }
