@@ -1,63 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <title>Team Mölle</title>
     <link rel="stylesheet" href="styles.css" />
-  </head>
+    <script src="scrollToTop.js"></script>
+    <script src="script.js" defer></script>
+</head>
 
-  <body>
+<body>
     <header>
-      <h1>Welcome to Team Mölle's Project</h1>
+        <h1>Welcome to Team Mölle's Project</h1>
     </header>
     <main>
-      <nav>
-        <ul>
-          <li><a href="#about">About Us</a></li>
-        </ul>
-      </nav>
-      <hero> 
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </nav>
+        <hero>
             <div id="weather-wrapper" class="weather-wrapper"></div>
-      </hero>
-      <article>
-        <h2>About Us</h2>
-        <div class="us-container">
-          <section class="us">
-            <h3>Vera Witting</h3>
-            <img src="res/jag.jpg" alt="Portrait of Vera Witting" width="200" />
-            <p>Malmö, Sweden</p>
-            <p>Future Role: Fullstack Developer Consult</p>
-          </section>
-          <section class="us">
-            <h3>Millaray Soto Chavez (Mimmi)</h3>
-            <img src="res/IMG_0498.JPG" alt="" width="200" />
-            <p>Malmö, Sweden</p>
-            <p>Future Role : Fullstack developer</p>
-          </section>
-          <section class="us">
-            <h3>Oliver</h3>
-            <img src="res/oliver.png" alt="Oliver's Cats" width="200" />
-            <p>Malmö, Sweden</p>
-            <p>Future role: Software Engineer</p>
-          </section>
-          <section class="us">
-            <h3>Pontus Olsson</h3>
-            <img src="res/PontusBild.jpg" alt="Profilbild Pontus" width="200" />
-            <p>Malmö</p>
-            <p>Future role: Software Engineer</p>
-          </section>
-          <section class="us">
-            <h3>Mario</h3>
-            <img src="res/20250720_212334.jpg" alt="Mario's bike" width="200" />
-            <p>Arlöv, Sweden</p>
-            <p>Future role: Software Engineer</p>
-          </section>
-        </div>
-      </article>
+        </hero>
+        <article>
+            <h2>About Us</h2>
+            <div class="us-container">
+                <section class="us">
+                    <h3>Vera Witting</h3>
+                    <img src="res/jag.jpg" alt="Portrait of Vera Witting" width="200" />
+                    <p>Malmö, Sweden</p>
+                    <p>Future Role: Fullstack Developer Consult</p>
+                </section>
+                <section class="us">
+                    <h3>Millaray Soto Chavez (Mimmi)</h3>
+                    <img src="res/IMG_0498.JPG" alt="" width="200" />
+                    <p>Malmö, Sweden</p>
+                    <p>Future Role : Fullstack developer</p>
+                </section>
+                <section class="us">
+                    <h3>Oliver</h3>
+                    <img src="res/oliver.png" alt="Oliver's Cats" width="200" />
+                    <p>Malmö, Sweden</p>
+                    <p>Future role: Software Engineer</p>
+                </section>
+                <section class="us">
+                    <h3>Pontus Olsson</h3>
+                    <img src="res/PontusBild.jpg" alt="Profilbild Pontus" width="200" />
+                    <p>Malmö</p>
+                    <p>Future role: Software Engineer</p>
+                </section>
+                <section class="us">
+                    <h3>Mario</h3>
+                    <img src="res/20250720_212334.jpg" alt="Mario's bike" width="200" />
+                    <p>Arlöv, Sweden</p>
+                    <p>Future role: Software Engineer</p>
+                </section>
+            </div>
+        </article>
     </main>
     <footer>
-      <p>&copy; 2024 Team Mölle</p>
+        <p>&copy; 2024 Team Mölle</p>
+        <button id="scrollTopBtn"
+            style="position:fixed;bottom:40px;right:40px;display:none;padding:12px 18px;font-size:18px;z-index:1000;">⬆️
+            Top</button>
     </footer>
-  </body>
+</body>
+
 </html>

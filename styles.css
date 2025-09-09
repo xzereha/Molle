@@ -1,9 +1,16 @@
 /*https://chas-hackathon.lovable.app/checklist?team=M%C3%B6lle*/
 
+:root {
+    --offwhite: #faebd7;
+    --darkblue: #03021c;
+    --pink: #feabd7;
+    --hotpink: rgb(202, 33, 123);
+}
+
 body {
-    font-family: Arial, sans-serif; /* Sets the font for the entire page */
-    background-color: #f4f4f4; /* Light gray background */
-    color: #333; /* Dark gray text color */
+    font-family: "Poppins", sans-serif; /* Sets the font for the entire page */
+    background-color: var(--offwhite); /* Light gray background */
+    color: var(--darkblue); /* Dark gray text color */
     margin: 0; /* Removes default margin */
     padding: 20px; /* Adds padding around the content */
   
@@ -12,6 +19,7 @@ body {
 header{
 max-height: 80px;
 }
+
 
 main{
     width: auto;
