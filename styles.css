@@ -17,6 +17,12 @@ body {
 }
 
 header{
+max-height: 80px;
+}
+
+.hero{
+    max-height: 200px;
+    width: auto;
 
 }
 
@@ -27,9 +33,25 @@ main{
 }
 
 .us-container{
+    border: solid ;
     display: flex;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
+.us{
+margin: 6px;
+padding: 6px;
+border: solid;
+width: 300px;
+display: flex;
+flex-direction: column;
+align-items: center;
+overflow: hidden;
+
+}
 .us img{
     height: 400px;
     width: auto;
