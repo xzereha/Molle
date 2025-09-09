@@ -6,23 +6,27 @@ body {
     color: #333; /* Dark gray text color */
     margin: 0; /* Removes default margin */
     padding: 20px; /* Adds padding around the content */
+  
 }
 
 header{
-
+max-height: 80px;
 }
 
 main{
-    display: flex;
-    flex-direction: column;
+    width: auto;
 }
 
 .us-container{
     display: flex;
+    width: 100px;
 }
 
+.us{
+padding: 6px;
+}
 .us img{
-    height: 400px;
+    max-height: 400px;
     width: auto;
 }
 
@@ -32,4 +36,5 @@ article{
 }
 
 section{
+
 }
