@@ -104,3 +104,9 @@ body.alt-background {
     background-color: var(--offwhite);
     color: var(--darkblue);
 }
+
+@media(max-width: 800px) {
+h1{
+   font-size: 20px;
+}
+}
