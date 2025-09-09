@@ -32,12 +32,17 @@ main{
 }
 
 .us-container{
+    border: solid ;
     display: flex;
-    width: 100px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .us{
 padding: 6px;
+border: solid;
 }
 .us img{
     max-height: 400px;
