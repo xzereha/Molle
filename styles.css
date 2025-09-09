@@ -9,9 +9,9 @@
 
 body {
     font-family: "Poppins", sans-serif; /* Sets the font for the entire page */
-    background: #FEABD7;
+    background-color: #FEABD7;
     background: linear-gradient(90deg, rgba(254, 171, 215, 1) 0%, rgba(202, 33, 123, 1) 50%, rgba(250, 235, 215, 1) 100%);
-    color: --; /* Dark gray text color */
+    color: var(--darkblue); /* Dark gray text color */
     margin: 0; /* Removes default margin */
     padding: 20px; /* Adds padding around the content */
 }
@@ -100,7 +100,7 @@ section{
 }
 
 body.alt-background {
-    background-image: none;
+    background: var(--offwhite);
     background-color: var(--offwhite);
     color: var(--darkblue);
 }

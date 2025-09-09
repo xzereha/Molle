@@ -1,4 +1,6 @@
 const weatherWrapper = document.getElementById('weather-wrapper');
+const toggleButton = document.getElementById('bg-toggle');
+const toggleText = document.getElementById('toggle-text');
 const body = document.body;
 
 const API = "https://api.openweathermap.org/data/2.5/weather?q=Malmo,Sweden&units=metric&appid=fd582670436692008725c351eb4985b0";
