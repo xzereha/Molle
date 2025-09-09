@@ -1,0 +1,35 @@
+/*https://chas-hackathon.lovable.app/checklist?team=M%C3%B6lle*/
+
+body {
+    font-family: Arial, sans-serif; /* Sets the font for the entire page */
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark gray text color */
+    margin: 0; /* Removes default margin */
+    padding: 20px; /* Adds padding around the content */
+}
+
+header{
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.us-container{
+    display: flex;
+}
+
+.us img{
+    height: 400px;
+    width: auto;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+}
