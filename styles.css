@@ -20,6 +20,13 @@ header{
 max-height: 80px;
 }
 
+.hero{
+    background-color: #03021c;
+    max-height: 200px;
+    width: auto;
+
+}
+
 
 main{
     width: auto;
