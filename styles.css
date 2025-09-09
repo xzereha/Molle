@@ -4,44 +4,34 @@
     --offwhite: #faebd7;
     --darkblue: #03021c;
     --pink: #feabd7;
-    --hotpink: rgb(202, 33, 123);
+    --hotpink: #ca217b;
 }
 
 body {
     font-family: "Poppins", sans-serif; /* Sets the font for the entire page */
-    background-color: var(--offwhite); /* Light gray background */
-    color: var(--darkblue); /* Dark gray text color */
+    background: #FEABD7;
+    background: linear-gradient(90deg, rgba(254, 171, 215, 1) 0%, rgba(202, 33, 123, 1) 50%, rgba(250, 235, 215, 1) 100%);
+    color: --; /* Dark gray text color */
     margin: 0; /* Removes default margin */
     padding: 20px; /* Adds padding around the content */
-  
 }
 
 header{
-max-height: 80px;
-}
-
-.hero{
-    background-color: #03021c;
-    max-height: 200px;
-    width: auto;
 
 }
 
 
 main{
-    width: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .us-container{
     display: flex;
-    width: 100px;
 }
 
-.us{
-padding: 6px;
-}
 .us img{
-    max-height: 400px;
+    height: 400px;
     width: auto;
 }
 
@@ -51,5 +41,42 @@ article{
 }
 
 section{
+}
 
+/*----BACKGROUND TOGGLE-----*/
+.bg-button {
+    height: 48px;
+    width: 250px;
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    color: var(--offwhite);
+    background-color: var(--darkblue);
+    border: 1px solid var(--offwhite);
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px var(--offwhite);
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.bg-button:hover {
+    background-color: var(--darkblue);
+    color: var(--offwhite);
+    border: 1px solid var(--hotpink);
+    box-shadow: 5px 5px 0px var(--hotpink);
+}
+
+.bg-button:active {
+    background-color: var(--hotpink);
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+body.alt-background {
+    background-image: none;
+    background-color: var(--offwhite);
+    color: var(--darkblue);
 }

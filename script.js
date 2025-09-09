@@ -1,4 +1,5 @@
 const weatherWrapper = document.getElementById('weather-wrapper');
+const body = document.body;
 
 const API = "https://api.openweathermap.org/data/2.5/weather?q=Malmo,Sweden&units=metric&appid=fd582670436692008725c351eb4985b0";
 
@@ -35,3 +36,10 @@ const fetchWeather = () => {
 };
 
 fetchWeather()
+
+toggleButton.addEventListener("click", () => {
+    body.classList.toggle("alt-background");
+    toggleText.innerHTML = body.classList.contains("alt-background")
+    ? `<h3>AHHH that's way calmer for reading.</h3>`
+    : `<h3>UHHGH! <br> I hate this background. <br> If only there was a button to change it...</h3>`;
+});
